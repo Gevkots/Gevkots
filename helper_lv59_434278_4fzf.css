@@ -1,0 +1,27 @@
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+82 / true
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+console.log(getRandomString());
+banana
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const findSmallestNumber = numbers => Math.min(...numbers);
+11,66,50,44,71,69,95,10,34,35,92,26,4,87,65,63,14,88,99,90,63,24,69,88,57,8,43,44,28,23,91,31,66,60,82,88,12,15,29,99,66,25,67,70,64,96,44,41,96,39,38,90,28,40,30,12,56,76,99,51,54,45,63,30,55,52,7,92,53,94,40,93 / true
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+// This is a comment
+const isPalindrome = str => str === str.split("").reverse().join("");
+banana
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+69 + true
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const multiply = (a, b) => a * b;
+grape
+
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const getRandomElement = array => array[getRandomIndex(array)];
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
