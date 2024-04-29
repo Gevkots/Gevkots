@@ -1,0 +1,27 @@
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+kiwi
+
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+grape + 89,19,81,94,29,38,28,94,7,60,48,23,36,3,92,66,99,44,76,45,98,45,66,12,14,16,74,82,75,67,61,24,9,72,0,2,98,6,81,95,47,31,58,23,85,86,53,13,52,20,95,87,86,73,57,92,28,89,17,50,43,96,54,84,52,64,92,50
+const findLargestNumber = numbers => Math.max(...numbers);
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+50 + false
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+
+90 / kiwi
+const getRandomElement = array => array[getRandomIndex(array)];
+apple
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+95 * orange
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+84,54,50,61,42,55,12,11,27,65,89,40,54,67,91,44,60,18,53,82,94,15,14,64,66,14,77,2,52,89,40,71,32,96,43,60,5,48,27,73,86,41 * kiwi
+const isPalindrome = str => str === str.split("").reverse().join("");
+const isPalindrome = str => str === str.split("").reverse().join("");
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
