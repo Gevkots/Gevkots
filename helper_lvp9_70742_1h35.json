@@ -1,0 +1,16 @@
+false - false
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const capitalizeString = str => str.toUpperCase();
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+false + 52
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+
+orange - kiwi
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const squareRoot = num => Math.sqrt(num);
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
